@@ -14,7 +14,7 @@
         -2px 2px 5px 0 rgba(0,0,0,.1);
     font-size: 20px;
     letter-spacing: 1,5px;
-    transition: 0.4s all linear;
+    transition: 0.5s all linear;
     }
     
     .border li:nth-child(15){border-color: #fc2408;}
