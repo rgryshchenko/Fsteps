@@ -1,0 +1,45 @@
+.border {
+    list-style: none;
+    padding: 0;
+    }
+    .border li {
+    font-family: "Times New Roman", "Lucida Sans";
+    padding: 7px 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border-left: 10px solid #ffe600; 
+    box-shadow: 2px -2px 5px 0 rgba(0,0,0,.1),
+         -2px -2px 5px 0 rgba(0,0,0,.1),
+        2px 2px 5px 0 rgba(0,0,0,.1),
+        -2px 2px 5px 0 rgba(0,0,0,.1);
+    font-size: 20px;
+    letter-spacing: 1,5px;
+    transition: 0.4s all linear;
+    }
+    
+    .border li:nth-child(15){border-color: #fc2408;}
+    .border li:nth-child(16){border-color: #fc2408;}
+    .border li:nth-child(17){border-color: #fc2408;}
+    .border li:nth-child(18){border-color: #fc2408;}
+    .border li:nth-child(19){border-color: #fc2408;}
+
+    .border li:hover {border-left: 10px solid transparent;}
+    .border li:nth-child(1):hover {border-right: 10px solid #ffe600;}
+    .border li:nth-child(2):hover {border-right: 10px solid #ffe600;}
+    .border li:nth-child(3):hover {border-right: 10px solid #ffe600;}
+    .border li:nth-child(4):hover {border-right: 10px solid #ffe600;}
+    .border li:nth-child(5):hover {border-right: 10px solid #ffe600;}
+    .border li:nth-child(6):hover {border-right: 10px solid #ffe600;}
+    .border li:nth-child(7):hover {border-right: 10px solid #ffe600;}
+    .border li:nth-child(8):hover {border-right: 10px solid #ffe600;}
+    .border li:nth-child(9):hover {border-right: 10px solid #ffe600;}
+    .border li:nth-child(10):hover {border-right: 10px solid #ffe600;}
+    .border li:nth-child(11):hover {border-right: 10px solid #ffe600;}
+    .border li:nth-child(12):hover {border-right: 10px solid #ffe600;}
+    .border li:nth-child(13):hover {border-right: 10px solid #ffe600;}
+    .border li:nth-child(14):hover {border-right: 10px solid #ffe600;}
+    .border li:nth-child(15):hover {border-right: 10px solid #fc2408;}
+    .border li:nth-child(16):hover {border-right: 10px solid #fc2408;}
+    .border li:nth-child(17):hover {border-right: 10px solid #fc2408;}
+    .border li:nth-child(18):hover {border-right: 10px solid #fc2408;}
+    .border li:nth-child(19):hover {border-right: 10px solid #fc2408;}

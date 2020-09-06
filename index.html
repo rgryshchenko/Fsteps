@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+        <title>HW #1 "VCS (Git, GitHub)"</title>
+
+        <link rel="stylesheet" href="style.css";>
+
+        <style>
+            .colortext {
+              color: #b37427; /* колір(виділення) */
+            }
+            .fig {
+            text-align: center; /* Вирівнювання ліворуч */ 
+            }
+            .text {
+            text-align: center; /* Вирівнювання по центру */ 
+            }
+        </style>
+
+  </head>
+  <body>
+        <figure class="fig">
+            <p><img src="kf.jpg" width="1000px" height="auto" alt="Kidflash"></p>
+        </figure> 
+
+        <text class="text">
+            <h1> HW #1. Шпаргалка для користування GIT </h1>
+        </text>
+              
+       <ul class="border">
+
+        <li> <span class="colortext">git config --global user.name "Roman"</span> - встановити ім'я користувача </li>
+        <li> <span class="colortext">git config --global user.email roman@gmail.com</span> - встановити email користувача</li> 
+        <li> <span class="colortext">git init </span> - створити новий репозиторій</li> 
+        <li> <span class="colortext">git status</span> - представлена команда показує стан файлів в робочій директорії та індексі</li>
+        <li> <span class="colortext">git add "file" or . </span> - додати всі змінені файли (to stage) </li>
+        <li> <span class="colortext">git commit </span> - створити новий коміт </li>
+        <li> <span class="colortext">git log </span> - показати історію комітів </li>
+        <li> <span class="colortext">git chekout </span> - повернутись до останнього коміту </li>
+        <li> <span class="colortext">git branch </span> - показати всі гілки </li>
+        <li> <span class="colortext">git push </span> - виконує мерж локальних змін на віддаленний репозиторій </li>
+        <li> <span class="colortext">git pull </span> - працює подібно до команди git push але виконує мерж змін з віддаленого репозиторію до локального </li>
+        <li> <span class="colortext">git merge </span> - використовується для злиття однієї або декількох гілок в поточну </li>
+        <li> <span class="colortext">git clone </span> - використовується для клонування локального або віддаленого репозиторію</li>
+        <li> <span class="colortext">.gitignore </span> - дана команда слугує для вказування в ній файлів і папок які необхідно приховати від системи контролю версій git</li>
+        <li> <span class="colortext"> git revert </span> - представлена команда створює "антикомміт" для вказаного коміта, таким чином відміняє зміни, що були внесені в ньому.</li>
+        <li> <span class="colortext"> git reset </span> - в соновному дана команда використовується для відміни змін. Також змінює показник HEAD та, опціонально, стан індекса.</li>
+        <li> <span class="colortext"> git rebase </span> - вести акуратну історію допомагає команда git rebase. Основна її мета "перетягувати" коммітов з одного місця в інше.
+                                                           також за допомогою неї можна позбавлятися від непотрібних коммітів, склеювати одні і міняти порядок інших. </li>
+        <li> <span class="colortext"> git cherry-pick </span> - використовується для перенесення окремих коммітов з одного місця сховища в інше, зазвичай між гілками розробки та обслуговування.</li>
+        <li> <span class="colortext"> git stash </span> - дана команда призначена для того, щоб помістити поточні зміни, які Ви виконали в файлах, в окреме сховище, і повернути файли до вихідного стану.</li>
+      
+      </ul>
+
+  </body>
+</html>
